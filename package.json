@@ -1,0 +1,21 @@
+{
+  "name": "Swagger-To-Confluence-MarkDown",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "body-parser": "~1.13.1",
+    "bootprint": "^0.7.1",
+    "bootprint-json-schema": "^0.5.0",
+    "bootprint-swagger": "^0.6.2", 
+    "debug": "~2.2.0", 
+    "handlebars": "^3.0.3",
+    "hbs": "~3.1.0",
+    "lodash": "^3.10.0", 
+    "path": "^0.11.14", 
+    "walk": "^2.3.9"
+  }
+}
