@@ -1,0 +1,16 @@
+{{#each methods}}
+
+{panel:title={{toUpperCase @key}} {{../endPoint}} ( *{{summary}}* )|borderStyle=solid|borderColor={{borderColor @key}}|borderWidth=1|titleBGColor={{titleBGColor @key}}|bgColor=white}
+{{description}}
+
+{{>headers/partials/parameters parameters}}
+
+{{>headers/partials/responses responses}}
+
+{panel}
+
+{{#if @last}}{{else}}
+----
+
+{{/if}}
+{{/each}}
