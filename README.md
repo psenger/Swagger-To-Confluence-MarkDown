@@ -1,3 +1,4 @@
 # Swagger-To-Confluence-MarkDown
 
-This Node JS app converts Swagger 2.0 JSON to Confluence Mark Down
+I wrote this Node JS app for the sole purpose of converting Swagger 2.0 JSON to Confluence Mark Down. 
+
