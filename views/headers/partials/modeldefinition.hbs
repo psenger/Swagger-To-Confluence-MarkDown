@@ -1,0 +1,10 @@
+h3. {{modelName}}
+
+{{anchor modelName}}{{#if description}}
+
+{quote}{{description}}{quote}{{/if}}
+
+{{>headers/partials/properties model}}
+|| Name || Description || Schema ||
+{{#each properties}}| {{@key}} | {{description}} | {{schema .}} |
+{{/each}}
