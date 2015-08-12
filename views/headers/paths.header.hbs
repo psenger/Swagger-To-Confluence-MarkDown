@@ -1,0 +1,7 @@
+h2. Paths
+{{#each paths}}
+
+h3. {{toUpperCase @key}}
+
+{{>headers/partials/method endPoint=@key methods=.}}
+{{/each}}
