@@ -1,5 +1,5 @@
-h1. {{info.title}}
+h2. Model
+{{#each definitions}}
 
-{{info.description}}
-
-*Version* {{info.version}}
+{{>headers/partials/modeldefinition modelName=@key model=. }}
+{{/each}}
