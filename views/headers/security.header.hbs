@@ -1,0 +1,13 @@
+{{#if securityDefinitions}}
+h2. Security
+{{#each securityDefinitions}}
+
+{panel:title={{toUpperCase @key}} ( *{{name}}* )|borderStyle=solid|borderColor={{borderColor in}}|borderWidth=1|titleBGColor={{titleBGColor in}}|bgColor=white}
+
+|| Name | {{name}} |
+|| In | {{in}} |
+
+{panel}
+
+{{/each}}
+{{/if}}
