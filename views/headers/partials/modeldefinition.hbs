@@ -4,7 +4,6 @@ h3. {{modelName}}
 
 {quote}{{description}}{quote}{{/if}}
 
-{{>headers/partials/properties model}}
 || Name || Description || Schema ||
 {{#each properties}}| {{@key}} | {{description}} | {{schema .}} |
 {{/each}}
